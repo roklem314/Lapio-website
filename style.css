@@ -1,1 +1,38 @@
+/*tyyppiselektori*/
 p { background-color: blue; }
+/*luokkaselektori*/
+.spirit {
+  color: #4db2ec;
+  text-decoration: none !important;
+}
+/*luokkaselektori*/
+.island {
+  color: #D5D4D4;
+  text-decoration: none !important;
+}
+/*luokkaselektori*/
+.buzzles {
+  color: ##6ee158;
+  text-decoration: none !important;
+}
+/*tyyppiselektori*/
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 13px;
+  line-height: 21px;
+  color: #222222;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+/*luokkaselektori*/
+.buzzletext {
+  color: black;
+}
+/*tunniste selektori*/
+#buzzle-block {
+  color: black;
+}
+/*universaali selektori*/
+* {
+  color: green;
+}
