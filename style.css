@@ -1,5 +1,7 @@
 /*tyyppiselektori*/
-p { background-color: blue; }
+p {
+  background-color: blue;
+}
 /*luokkaselektori*/
 .spirit {
   color: #4db2ec;
@@ -35,4 +37,20 @@ body {
 /*universaali selektori*/
 * {
   color: green;
+}
+/*luokkaselektori*/
+.un-ordered-list {
+  color: #4db2ec;
+}
+/*luokkaselektori*/
+.ordered-list{
+  color: #6ee158;
+}
+/*luokkaselektori*/
+.title-color{
+  color: black;
+}
+/*luokkaselektori*/
+.title2-color{
+  color: #222222;
 }
