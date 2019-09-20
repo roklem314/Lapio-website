@@ -8,6 +8,9 @@
   margin-bottom: 5px;
   margin-right: 5px;
   position: absolute;
+  border-width: 2px;
+  border-color: green;
+  text-align: center;
 }
 /*Luokkaselektori*/
 .second-box-container {
@@ -19,6 +22,9 @@
   margin-bottom: 5px;
   margin-right: 5px;
   position: absolute;
+  border-width: 2px;
+  border-color: red;
+  text-align: center;
 }
 /*Luokkaselektori*/
 .third-box-container {
@@ -30,4 +36,12 @@
   margin-bottom: 5px;
   margin-right: 5px;
   position: absolute;
+  border-width: 2px;
+  border-color: yellow;
+  text-align: center;
+}
+.container-box-text {
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: 37px;
 }
