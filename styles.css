@@ -1,0 +1,33 @@
+/*Luokkaselektori*/
+.first-box-container {
+  width: 200px;
+  height: 100px;
+  background-color: red;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  position: absolute;
+}
+/*Luokkaselektori*/
+.second-box-container {
+  width: 200px;
+  height: 100px;
+  background-color: yellow;
+  margin-left: 225px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  position: absolute;
+}
+/*Luokkaselektori*/
+.third-box-container {
+  width: 200px;
+  height: 100px;
+  background-color: green;
+  margin-left: 440px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  position: absolute;
+}
