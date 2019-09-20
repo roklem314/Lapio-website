@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <titl></title>
+    <link rel="stylesheet" href="pgp.css">
+</head>
+
+<body>
+  <div class="title-div">
+	   <h1>PGP = "Pretty Good Privacy"</h1>
+ </div>
+ <div class="image-div">
+
+ </div>
+
+		 <h4></h4>
+		 <p><p>
+		 <p>PGP stands for Pretty Good Privacy. It’s an encryption program that’s mainly used for email encryption, but it can be used for encrypting any sort of data.</p>
+		 <p>Before you read this tutorial, please note one thing: PGP provides privacy, not anonymity.</p>
+     <p>It will not hide your name — quite the opposite: it will attach your name and email to any message you sign, and your recipient’s name and email to any message you encrypt.</p>
+	<h2>PGP History</h2>
+	   <p>Released by Phil Zimmermann on year 1991</p>
+     <p>OpenPGP is the standard (anyone can create their own encryption program that follows this standard).</p>
+     <p>There are many programs following the standard, most commonly used one being GPG (GNU Privacy Guard; tutorial).</p>
+     <p>
+   <h2>How PGP work</h2>
+    <p>PGP utilizes public key cryptography, so both the sender and the receiver have their public and private keys.</p>
+    <p>Public keys are public because you can distribute them freely without hurting the security of your keys.</p>
+    <p>Private keys are private because you should protect them very well. </p>
+    <p>PGP encrypts your private key with a passphrase, so if it accidentally gets leaked, your communications aren’t necessarily compromised, but it’s still a good idea to generate a new key pair in case of a leak.</p>
+    <p>It’s also important to differentiate between encryption and authentication. This is why PGP supports signing as well.</p>
+
+    <div>
+      <h2> Encryption and Authentication</h2>
+      <p>Your private key may be secure, but your email is not. Attackers can try to make it look like an email came from you, or even send it from your address — someone can* access your computer, your email provider can send emails from your address extremely easily, etc.</p>
+      <p>And because public keys are usually publicly available, without authentication it’s extremely easy to supply someone with fake information.</p>
+      <p>Bob receives an encrypted email from alice@example.com. The email came from Alice’s email address, should Bob trust it? No. It needs to be signed (see below) by Alice.</p>
+      <p>* this obviously depends on how secure your computer is — e.g. if you use full-disk encryption, an email client that remembers your password, etc.</p>
+      <p>etc ...</p>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  line-height: 1.5;
+  padding: 4em 1em;
+  color: white;
+  background-color: black;
+  background-image: url("images/encryption.jpg");
+}
+h2 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: left;
+  margin-right: 500px;
+  background-color: black;
+
+}
+p {
+  color: #40e0d0;
+  background-color: black;
+  margin: auto;
+}
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+.title-div {
+  width: 600px;
+  height: 100px;
+  background-color: black;
+  position: absolute;
+  padding-left: 10px;
+  margin-bottom: 100px;
+  /*background-image: url("images/encryption.jpg");*/
+}
+.image-div {
+  width: 900px;
+  height: 200px;
+  text-align: center;
+
+}
